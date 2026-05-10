@@ -1,6 +1,6 @@
 import sqlite3
 
-db = sqlite3.connect('fighters.db')
+db = sqlite3.connect('11DTP.db')
 cursor = db.cursor()
 sql = 'SELECT * FROM fighters;'
 cursor.execute(sql)
