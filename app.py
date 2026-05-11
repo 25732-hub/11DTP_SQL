@@ -1,5 +1,5 @@
 import sqlite3
-
+print('Hello world!')
 db = sqlite3.connect('11DTP.db')
 cursor = db.cursor()
 sql = 'SELECT * FROM fighters;'
